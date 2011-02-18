@@ -1,2 +1,10 @@
 body{ margin: 0; background: black;}
+.clear { clear: both }
 
+.calltoaction_wrapper { width: 100%; text-align: center; }
+.calltoaction_wrapper .l_corner { background: url(/images/calltoaction_l.gif) no-repeat; width: 8px;  height: 68px; float: left }
+.calltoaction_wrapper .content  { background: url(/images/calltoaction_c.gif) repeat-x;  width: auto; height: 68px; float: left }
+.calltoaction_wrapper .r_corner { background: url(/images/calltoaction_r.gif) no-repeat; width: 8px;  height: 68px; float: left }
+.calltoaction_wrapper .content a { display: block; cursor: pointer; }
+
+.calltoaction_wrapper .content a { font-family: Arial; font-size: 35px; padding: 10px 15px; }
