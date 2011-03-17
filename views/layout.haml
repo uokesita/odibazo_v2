@@ -9,15 +9,5 @@
     %script{ :type => "text/javascript"}
       $(document).ready(function() { alert("What would you like to drink?"); });
   %body
-    .calltoaction_wrapper
-      .l_corner
-      .content
-        %a What about a martini?
-      .r_corner
-      .clear
-    .calltoaction_wrapper
-      .l_corner
-      .content
-        %a Or maybe some cosmopolitan for the ladies?
-      .r_corner
-      .clear
+    %a{ :class => "call_to_action" } What about a martini?
+    %a{ :class => "call_to_action" } Or maybe some cosmopolitan for the ladies?

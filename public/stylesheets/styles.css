@@ -1,10 +1,25 @@
 body{ margin: 0; background: black;}
 .clear { clear: both }
 
-.calltoaction_wrapper { width: 100%; text-align: center; }
-.calltoaction_wrapper .l_corner { background: url(/images/calltoaction_l.gif) no-repeat; width: 8px;  height: 68px; float: left }
-.calltoaction_wrapper .content  { background: url(/images/calltoaction_c.gif) repeat-x;  width: auto; height: 68px; float: left }
-.calltoaction_wrapper .r_corner { background: url(/images/calltoaction_r.gif) no-repeat; width: 8px;  height: 68px; float: left }
-.calltoaction_wrapper .content a { display: block; cursor: pointer; }
-
-.calltoaction_wrapper .content a { font-family: Arial; font-size: 35px; padding: 10px 15px; }
+a.call_to_action {
+  background: url(/images/call_to_action.png) no-repeat;
+  background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.4, rgb(208,41,26)), color-stop(0.76, rgb(246,71,44)) );
+  background-image: -moz-linear-gradient( center bottom, rgb(208,41,26) 40%, rgb(246,71,44) 76% );
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+  color: #FFFFFF;
+  cursor: pointer;
+  display: block;
+  font-size: 29px;
+  padding: 15px 10px;
+  margin: 20px;
+  text-align: center;
+}
+a.call_to_action:hover {
+  background: url(/images/call_to_action.png) no-repeat;
+  background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.4, rgb(246,71,44)), color-stop(0.76, rgb(208,41,26)) );
+  background-image: -moz-linear-gradient( center bottom, rgb(246,71,44) 40%, rgb(208,41,26) 76% );
+}
