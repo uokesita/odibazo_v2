@@ -1,5 +1,5 @@
 *.swp
-public/images/artdirection/
-public/images/graphicdesign/
-public/images/photo/
-public/images/plasticart/
+public/images/artdirection/*
+public/images/graphicdesign/*
+public/images/photo/*
+public/images/plasticart/*
