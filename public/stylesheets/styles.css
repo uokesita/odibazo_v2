@@ -1,25 +1,110 @@
-body{ margin: 0; background: black;}
-.clear { clear: both }
-
-a.call_to_action {
-  background: url(/images/call_to_action.png) no-repeat;
-  background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.4, rgb(208,41,26)), color-stop(0.76, rgb(246,71,44)) );
-  background-image: -moz-linear-gradient( center bottom, rgb(208,41,26) 40%, rgb(246,71,44) 76% );
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
-  -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
-  box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
-  color: #FFFFFF;
-  cursor: pointer;
-  display: block;
-  font-size: 29px;
-  padding: 15px 10px;
-  margin: 20px;
-  text-align: center;
+/*----- RESET */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
 }
-a.call_to_action:hover {
-  background: url(/images/call_to_action.png) no-repeat;
-  background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.4, rgb(246,71,44)), color-stop(0.76, rgb(208,41,26)) );
-  background-image: -moz-linear-gradient( center bottom, rgb(246,71,44) 40%, rgb(208,41,26) 76% );
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+
+
+/*----- GENERAL */
+body{ margin: 0; background: black; font-family: Verdana; font-weight: bold;}
+.clear { clear: both }
+a { color:#fff; text-decoration: none; }
+
+/*----- LATYOUT */
+#header, 
+#content {
+  margin: 20px 0 0 100px;
+}
+
+
+/*---- MENU */
+#menu {
+  width: 20%;
+  float: left;
+}
+
+ul.nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 10px 0;
+  display: block;
+  font-size: 11.5px;
+}
+
+ul.nav a:hover {
+  color: #FFFF00;
+}
+
+
+/*----- MAIN-CONTENT */
+#main-content {
+  width: 80%;
+  float: left;
+}
+
+#tags {
+  text-align: right;
+  width: 25%;
+  float: left;
+  font-size: 20px;
+}
+
+  #tags p {
+    color: #fff;
+  }
+  
+#info {
+  margin: 27% 0 6% 3%;
+  float: left;
+  color: #fff;
+  font-size: 15px;
+}
+
+  #info p {
+    margin: 10px 0;
+  }
+  
+  #info a:hover {
+    color: #0000FF;
+  }
+
+.images {
+  width: 22500px;
+}
+
+.placeholder {
+  min-height: 400px;
+  float: left;
+  margin: 0 20px;
+}
+
+.images img {
+  float: left; 
+  vertical-align: middle;
 }
